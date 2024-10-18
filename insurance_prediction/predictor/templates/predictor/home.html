@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Premium Prediction</title>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Premium Prediction</h1>
+        <p>Use our tool to predict your insurance premium based on your health information.</p>
+        <a href="{% url 'predict' %}" class="btn">Start Prediction</a>
+    </div>
+</body>
+</html>
+
